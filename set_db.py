@@ -64,7 +64,3 @@ def set_language():
 
 
 
-
-
-
-

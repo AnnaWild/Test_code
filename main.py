@@ -5,7 +5,6 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-URL = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/suggest/address"
 TOKEN = os.getenv('TOKEN')
 LANGUAGE = "ru"
 
@@ -36,7 +35,6 @@ def settings():
         print(f"Базовый URL к сервису dadata: {db.check_url()}")
     else:
         pass
-
 
 
 db.create_table()
